@@ -1,0 +1,35 @@
+#ignore folders 
+/build/
+/files/
+
+# Ignore all log files
+*.log
+
+
+# Ignore temporary files and directories
+*.tmp
+*.swp
+.DS_Store
+
+# Ignore node_modules directory (for Node.js projects)
+node_modules/
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+
+# Ignore environment variables or secrets files
+.env
+
+# Ignore OS-specific files
+Thumbs.db
+.DS_Store
+
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+venv/
