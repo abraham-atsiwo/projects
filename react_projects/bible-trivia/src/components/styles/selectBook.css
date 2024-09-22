@@ -1,0 +1,18 @@
+.book-dropdown-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.book-label {
+  margin-right: 15px;
+  font-size: 0.9rem;
+  /* font-weight: bold; */
+}
+
+.book-select {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}

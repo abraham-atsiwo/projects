@@ -1,0 +1,120 @@
+.quiz-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 0.9rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-title {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.selected-answer {
+  font-weight: bold;
+  color: #3498db; /* Light blue to highlight the user's answer */
+  background-color: #f0f8ff; /* Light background color */
+  padding: 10px;
+  border: 2px solid #3498db; /* Matching border color */
+  border-radius: 5px; /* Rounded corners */
+  margin-top: 10px; /* Space above the answer box */
+}
+
+.selected-answer strong {
+  color: #2c3e50; /* Darker color for the label */
+}
+
+.question-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.question-count-input {
+  min-width: 60px;
+  padding: 5px;
+  font-size: 0.9rem;
+}
+
+.quiz-question {
+  font-size: 0.9rem;
+}
+
+.question-text {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.hint-text {
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+  /* color: #666; */
+  color: #00FF00;
+}
+
+.options-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.option-item {
+  margin-bottom: 10px;
+}
+
+.correct-answer {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: red;
+}
+
+.submit-btn, .reset-btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+
+.submit-btn:hover, .reset-btn:hover {
+  background-color: #0056b3;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.prev-btn, .next-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.prev-btn:hover, .next-btn:hover {
+  background-color: #0056b3;
+}
+
+.result-section {
+  text-align: center;
+}
+
+.score-text {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+

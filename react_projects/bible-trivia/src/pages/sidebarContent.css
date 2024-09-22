@@ -1,0 +1,71 @@
+
+.sidebar-content-container {
+    margin-top: 30px;
+    display: flex;
+    /* border-style: solid; */
+    min-height: 300px;
+    justify-content: space-between;
+    
+}
+
+.content {
+  width: 100%;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sidebar {
+    display: flex;
+    min-width: 300px;
+    flex-direction: column;
+    border-style: solid;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 24px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    border-radius: 8px;  /* Optional: round the corners */
+    border-color: rgb(224, 213, 213);
+    border-width: 1px;
+    padding: 20px;
+
+}
+
+.header {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    background-color: rgba(128, 0, 128, 0.533);
+    border-color: rgba(255, 0, 0, 0.692);
+}
+
+
+
+
+
+/* Media query for larger screens (tablet and up) */
+@media (max-width: 768px) {
+
+  .sidebar-content-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    margin-bottom: 10px;
+    border: none;
+    font-weight: normal;
+  }
+
+  .question-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Switch to grid layout */
+    gap: 20px;
+  }
+}
+
+/* Media query for very small screens (phones, narrow devices) */
+@media (max-width: 480px) {
+  .card {
+    height: 150px; /* Reduce card height on very small screens */
+  }
+}
